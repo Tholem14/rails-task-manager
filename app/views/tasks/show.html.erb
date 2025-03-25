@@ -1,4 +1,3 @@
 <h1><%= @task.title %></h1>
 <p><%= @task.details %></p>
-<p>Completada: <%= @task.completed ? "Sí" : "No" %></p>
-<%= link_to "Volver", tasks_path %>
+<p><%= @task.completed ? "Completed" : "Not completed" %></p>
